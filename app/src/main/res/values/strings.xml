@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOG ATTENDANCE</string>
+    <string name="student">STUDENT ID</string>
+    <string name="register_text">Please place your finger-print on scanner to register</string>
+    <string name="attendance_text">Please place your finger-print to mark attendance</string>
+</resources>
