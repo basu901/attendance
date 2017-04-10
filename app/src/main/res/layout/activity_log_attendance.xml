@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="@color/colorBackground"
-    tools:context="com.example.shaunakbasu.attendance.RegisterActivity">
+    tools:context="com.example.shaunakbasu.attendance.LogAttendanceActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,5 +39,35 @@
         android:layout_marginTop="56dp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_this">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="TEMP_ADD"
+            android:textSize="12sp"
+            android:id="@+id/button_add"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_delete"
+            android:text="TEMP_DELETE"
+            android:textSize="12sp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_display"
+            android:text="TEMP_DISP"
+            android:textSize="12sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
 
 </LinearLayout>
